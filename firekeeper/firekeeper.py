@@ -46,7 +46,4 @@ async def on_message(message):
         await message.channel.send('', file=discord.File(image))
         await message.channel.send('-' + message.author.nick)
 
-
 client.run(config['SECRET']['DISCORD_CLIENT_TOKEN'])
-
-#image_handler.make_death_meme("test")
